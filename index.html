@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+   
+    <div class="Calculator">
+        <p class="heyy" id="elements"></p>
+
+        <div>
+            <div class="btn">
+                <!-- <button class="design" id="add">(</button>
+                <button class="design" id="add">)</button>
+                <button class="design">ans</button>
+                <button class="design">del</button> -->
+                <button class="design" onclick="clearbtn()">clear</button>
+            </div>
+            <div>
+                <button id="add7" onclick="eladd7()">7</button>
+                <button id="add8" onclick="eladd8()">8</button>
+                <button id="add9" onclick="eladd9()">9</button>
+                <button class="design" onclick="mulbtn()"><span>&#215</span></button>
+                <button class="design" onclick="divbtn()"><span>&#247</span></button>
+
+            </div>
+            <div>
+                <button id="add4" onclick="eladd4()">4</button>
+                <button id="add5" onclick="eladd5()">5</button>
+                <button id="add6" onclick="eladd6()">6</button>
+                <button class="design" onclick="modbtn()">%</button>
+                <button class="design" onclick="rootbtn()"><sup>n</sup><span>&#8730</span></button>
+            </div>
+            <div>
+                <button id="add1" onclick="eladd1()">1</button>
+                <button id="add2" onclick="eladd2()">2</button>
+                <button id="add3" onclick="eladd3()">3</button>
+                <button class="design" onclick="addbtn()">+</button>
+                <button class="design" onclick="subbtn()">-</button>
+            </div>
+            <div>
+                <button id="addpoint" onclick="eladdpoint()">.</button>
+                <button id="add0" onclick="eladd0()">0</button>
+                <button id="add00" onclick="eladd00()">00</button>
+                <button class="design" onclick="powbtn()">x<sup>n</sup></button>
+                <button class="design" onclick="equalbtn()">=</button>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
